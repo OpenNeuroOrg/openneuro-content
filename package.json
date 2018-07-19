@@ -1,4 +1,6 @@
 {
+  "name": "openneuro-content",
+  "main": "lib/openneuro-content.js",
   "dependencies": {
     "file-loader": "^1.1.11",
     "webpack": "^4.16.1",
