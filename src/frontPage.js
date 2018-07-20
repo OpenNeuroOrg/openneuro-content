@@ -12,7 +12,6 @@ import logo_users from './assets/logo_users.png'
 export default {
   pageTitle: 'OpenNeuro',
   copyright: {
-    year: '2017',
     holder: 'Stanford Center for Reproducible Neuroscience',
   },
   pageDescription:
@@ -44,8 +43,8 @@ export default {
     privacyDetail: '',
     privacyLink: 'https://www.stanford.edu/site/privacy/',
   },
-  frontPageExtras: false,
-  collaborators: false,
+  frontPageExtras: true,
+  collaborators: true,
   support: [
     {
       title: 'Arnold Foundation',
