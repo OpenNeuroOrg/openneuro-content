@@ -9,6 +9,7 @@ import logo_cube from './assets/logo_cube.png'
 import logo_data from './assets/logo_data.png'
 import logo_users from './assets/logo_users.png'
 import brand_mark from './assets/brand_mark.png'
+import favicon from './assets/favicon.ico'
 
 export default {
   pageTitle: 'OpenNeuro',
