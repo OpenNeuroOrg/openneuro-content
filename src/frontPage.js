@@ -8,6 +8,7 @@ import logo_app from './assets/logo_app.png'
 import logo_cube from './assets/logo_cube.png'
 import logo_data from './assets/logo_data.png'
 import logo_users from './assets/logo_users.png'
+import brand_mark from './assets/brand_mark.png'
 
 export default {
   pageTitle: 'OpenNeuro',
@@ -42,6 +43,17 @@ export default {
     logoText: true,
     privacyDetail: '',
     privacyLink: 'https://www.stanford.edu/site/privacy/',
+  },
+  navBar: {
+    brand: {
+      src: brand_mark,
+      alt: "OpenNeuro Logo",
+      title: "OpenNeuro Link to Home Page",
+      text: {
+        first: "Open",
+        second: "Neuro"
+      }
+    }
   },
   frontPageExtras: true,
   collaborators: true,
