@@ -2,7 +2,7 @@ export default [
   {
     faq: 'How do I get started?',
     faq_answer:
-      'Check out our ' +
+      'Check out our ' + 
       '[video tutorial](https://www.youtube.com/playlist?list=PLU-IMZq18nDsf6VpCrLezLgylfAbRPPV8).',
   },
   {
@@ -25,7 +25,7 @@ export default [
       'This dataset does not include any identifiable personal health ' +
       'information as defined by the Health Insurance Portability and ' +
       'Accountability Act of 1996 (including names, zip codes, dates of ' +
-      'birth, acquisition dates, facial features on structural scans ' +
+      'birth, acquisition dates, facial features on structural scans, ' +
       'etc.).\n' +
       '* ' +
       'You agree that this dataset and results of all analyses ' +
@@ -37,7 +37,7 @@ export default [
   {
     faq: 'What if I will not be able to publish my paper in 36 months?',
     faq_answer:
-      'You can apply for up to two 6 month long extensions of the grace ' +
+      'You can apply for up to two 6-month long extensions of the grace ' +
       'period. To apply please contact support. We encourage you to publish ' +
       'a preprint of your work to reduce the uncertainty of the publishing ' +
       'pipeline.',
@@ -47,7 +47,7 @@ export default [
       'Can I upload and analyze a publicly available dataset from another repository?',
     faq_answer:
       'The mission of OpenNeuro is to incentivize data sharing via ' +
-      'providing data analysis service. Thus we discourage using it to ' +
+      'providing data analysis service. Thus, we discourage using it to ' +
       'analyze already publicly available datasets. This policy might ' +
       'change in the future depending on improvements in analysis cost.',
   },
@@ -66,7 +66,7 @@ export default [
       'Do I need to remove facial features from structural images before uploading the data?',
     faq_answer:
       'Yes. We recommend using ' +
-      '[pydeface](https://pypi.python.org/pypi/pydeface). Defacing is strongly preffered over skullstripping, because ' +
+      '[pydeface](https://pypi.python.org/pypi/pydeface). Defacing is strongly preferred over skull stripping, because ' +
       'the process is more robust and yields lower chance of accidentally ' +
       'removing brain tissue.',
   },
@@ -81,9 +81,9 @@ export default [
       '* ' +
       '`dom.streams.enabled` - enables web streams.\n' +
       '* ' +
-      '`javascript.options.streams` - allows Javascript to use the API.\n ' +
+      '`javascript.options.streams` - allows JavaScript to use the API.\n ' +
       '* ' +
-      '`dom.ipc.multiOptOut` - works around thread bugs, this may not be' +
+      '`dom.ipc.multiOptOut` - works around thread bugs, this may not be ' +
       'needed but improves reliablity on some platforms. \n\n' +
       'You can find out more about ' +
       '[web streams on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API).',
