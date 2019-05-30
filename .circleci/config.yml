@@ -14,7 +14,18 @@ jobs:
       - run: docker build -t openneuro/content .
 
       # push content container
-      - run: docker push openneuro/content
+      - run:
+          name: docker tag + push (tag)
+          command: |
+            if [ "${CIRCLE_TAG}" ]; then
+              docker tag openneuro/server "openneuro/server:${CIRCLE_TAG}"
+              docker push "openneuro/server:${CIRCLE_TAG}"
+            fi
+            if [ -z "${CIRCLE_TAG}" ] && [ "${CIRCLE_BRANCH}" == "master" ]; then
+              docker tag openneuro/server openneuro/server:latest
+              docker push openneuro/server
+            fi
+
 
 workflows:
   version: 2
@@ -24,3 +35,5 @@ workflows:
           filters:
             branches:
               only: master
+            tags:
+              only: /^v.*/
