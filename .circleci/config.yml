@@ -18,12 +18,12 @@ jobs:
           name: docker tag + push (tag)
           command: |
             if [ "${CIRCLE_TAG}" ]; then
-              docker tag openneuro/server "openneuro/server:${CIRCLE_TAG}"
-              docker push "openneuro/server:${CIRCLE_TAG}"
+              docker tag openneuro/content "openneuro/content:${CIRCLE_TAG}"
+              docker push "openneuro/content:${CIRCLE_TAG}"
             fi
             if [ -z "${CIRCLE_TAG}" ] && [ "${CIRCLE_BRANCH}" == "master" ]; then
-              docker tag openneuro/server openneuro/server:latest
-              docker push openneuro/server
+              docker tag openneuro/content openneuro/content:latest
+              docker push openneuro/content
             fi
 
 
