@@ -30,7 +30,7 @@ export default [
       '* ' +
       'You agree that this dataset and results of all analyses ' +
       'performed on it using the OpenNeuro platform will become ' +
-      'publicly available under a Creative Commons CC0 or CC-BY license ' +
+      'publicly available under a Creative Commons CC0 license ' +
       'after a grace period of 36 months counted from first successful ' +
       'analysis of data from more than one participant.',
   },
