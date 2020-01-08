@@ -32,7 +32,9 @@ export default [
       'performed on it using the OpenNeuro platform will become ' +
       'publicly available under a Creative Commons CC0 license ' +
       'after a grace period of 36 months counted from first successful ' +
-      'analysis of data from more than one participant.',
+      'analysis of data from more than one participant.\n' +
+      '* ' +
+      'This dataset is not subject to GDPR protections.'
   },
   {
     faq: 'What if I will not be able to publish my paper in 36 months?',
