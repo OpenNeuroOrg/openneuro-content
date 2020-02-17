@@ -65,10 +65,20 @@ export default [
     faq:
       'Do I need to remove facial features from structural images before uploading the data?',
     faq_answer:
-      'Yes. We recommend using ' +
-      '[pydeface](https://pypi.python.org/pypi/pydeface). Defacing is strongly preferred over skull stripping, because ' +
-      'the process is more robust and yields lower chance of accidentally ' +
-      'removing brain tissue.',
+    'OpenNeuro does not accept datasets that have not been defaced for ' +
+    'privacy considerations. Datasets found to not have been defaced will ' +
+    'be deleted and the dataset owner can reupload their dataset with the ' +
+    'defaced images. The original dataset needs to be deleted. The dataset ' +
+    'owner will be notified by the OpenNeuro team if an infringement has been detected. ' +
+    'The OpenNeuro team reserves the right to delete the dataset within 1 week ' +
+    'pending response from the dataset owner. The only exception is explicit ' +
+    'approval from the study participant(s).\n\n' +
+    'We recommend using [pydeface](https://pypi.python.org/pypi/pydeface) to deface your images. ' +
+    'In the case that the dataset(s) is cited in publications, the OpenNeuro team ' +
+    'will work with the dataset owner to remedy this case and ensure the DOI ' +
+    'and dataset link direct to the new dataset. A note will be added to the ' +
+    'README of the reuploaded dataset to specify this change.\n\n' +
+    'For any questions or concerns please email Franklin: <ffein@stanford.edu>',
   },
   {
     faq: 'I am having trouble downloading with Firefox, what can I do?',
