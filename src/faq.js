@@ -1,21 +1,26 @@
 export default [
   {
-    faq: 'How do I get started?',
+    faq: 
+      'How do I get started?',
     faq_answer:
       'Check out our ' + 
       '[video tutorial](https://www.youtube.com/playlist?list=PLU-IMZq18nDsf6VpCrLezLgylfAbRPPV8).',
   },
   {
-    faq: 'Is this service free to use?',
-    faq_answer: 'Yes!',
+    faq: 
+      'Is this service free to use?',
+    faq_answer: 
+      'Yes!',
   },
   {
-    faq: 'Can I restrict access to my data and analysis results on OpenNeuro?',
+    faq: 
+      'Can I restrict access to my data and analysis results on OpenNeuro?',
     faq_answer:
       'Yes, but only for a period of 36 months counted from first successful analysis of data from more than one participant. After this period the dataset and related analysis results will be made publicly available.',
   },
   {
-    faq: 'Are there any restrictions on the uploaded data?',
+    faq: 
+      'Are there any restrictions on the uploaded data?',
     faq_answer:
       'Yes. By uploading this dataset to OpenNeuro you have to agree to the  following conditions: \n' +
       '* ' +
@@ -35,7 +40,8 @@ export default [
       'analysis of data from more than one participant.',
   },
   {
-    faq: 'What if I will not be able to publish my paper in 36 months?',
+    faq: 
+      'What if I will not be able to publish my paper in 36 months?',
     faq_answer:
       'You can apply for up to two 6-month long extensions of the grace ' +
       'period. To apply please contact support. We encourage you to publish ' +
@@ -65,13 +71,24 @@ export default [
     faq:
       'Do I need to remove facial features from structural images before uploading the data?',
     faq_answer:
-      'Yes. We recommend using ' +
-      '[pydeface](https://pypi.python.org/pypi/pydeface). Defacing is strongly preferred over skull stripping, because ' +
-      'the process is more robust and yields lower chance of accidentally ' +
-      'removing brain tissue.',
+      'OpenNeuro does not accept datasets that have not been defaced for ' +
+      'privacy considerations. Datasets found to not have been defaced will ' +
+      'be deleted and the dataset owner can reupload their dataset with the ' +
+      'defaced images. The original dataset needs to be deleted. The dataset ' +
+      'owner will be notified by the OpenNeuro team if an infringement has been detected. ' +
+      'The OpenNeuro team reserves the right to delete the dataset within 1 week ' +
+      'pending response from the dataset owner. The only exception is explicit ' +
+      'approval from the study participant(s).\n\n' +
+      'We recommend using [pydeface](https://pypi.python.org/pypi/pydeface) to deface your images. ' +
+      'In the case that the dataset(s) is cited in publications, the OpenNeuro team ' +
+      'will work with the dataset owner to remedy this case and ensure the DOI ' +
+      'and dataset link direct to the new dataset. A note will be added to the ' +
+      'README of the reuploaded dataset to specify this change.\n\n' +
+      'For any questions or concerns please email Franklin: <ffein@stanford.edu>',
   },
   {
-    faq: 'I am having trouble downloading with Firefox, what can I do?',
+    faq: 
+      'I am having trouble downloading with Firefox, what can I do?',
     faq_answer:
       'Firefox is working to support the APIs used by downloads but as of ' +
       'Firefox 60, these features are hidden behind experimental ' +
