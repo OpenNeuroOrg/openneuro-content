@@ -87,6 +87,14 @@ export default [
       'For any questions or concerns please email Franklin: <ffein@stanford.edu>',
   },
   {
+    faq:
+      'How can I upload data onto OpenNeuro?',
+    faq_answer:
+      'We offer two options for uploading data onto OpenNeuro. ' +
+      'The first is to upload via the web interface. ' +
+      'The second is to upload via our (command-line utility tool)[cli.openneuro.org)',
+  },
+  {
     faq: 
       'I am having trouble downloading with Firefox, what can I do?',
     faq_answer:
