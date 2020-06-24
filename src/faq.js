@@ -92,7 +92,7 @@ export default [
     faq_answer:
       'We offer two options for uploading data onto OpenNeuro. ' +
       'The first is to upload via the web interface. ' +
-      'The second is to upload via our (command-line utility tool)[cli.openneuro.org)',
+      'The second is to upload via our [command-line utility tool](cli.openneuro.org)',
   },
   {
     faq: 
