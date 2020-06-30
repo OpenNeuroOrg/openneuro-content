@@ -77,23 +77,4 @@ export default [
       'The first is to upload via the web interface. ' +
       'The second is to upload via our [command-line utility tool](cli.openneuro.org)',
   },
-  {
-    faq: 
-      'I am having trouble downloading with Firefox, what can I do?',
-    faq_answer:
-      'Firefox is working to support the APIs used by downloads but as of ' +
-      'Firefox 60, these features are hidden behind experimental ' +
-      'configuration flags. Chrome is recommended for dataset or snapshot ' +
-      'downloads, but you can try out Firefox support by enabling three ' +
-      '`about:config` flags.\n' +
-      '* ' +
-      '`dom.streams.enabled` - enables web streams.\n' +
-      '* ' +
-      '`javascript.options.streams` - allows JavaScript to use the API.\n ' +
-      '* ' +
-      '`dom.ipc.multiOptOut` - works around thread bugs, this may not be ' +
-      'needed but improves reliablity on some platforms. \n\n' +
-      'You can find out more about ' +
-      '[web streams on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API).',
-  },
 ]
