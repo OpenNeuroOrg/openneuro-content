@@ -30,8 +30,10 @@ export default [
       'You agree that this dataset will become publicly available ' +
       'under a Creative Commons CC0 license after a grace period ' +
       'of 36 months counted from the first successful snapshot of ' +
-      'the dataset.',
-  },
+      'the dataset.\n' +
+      '* ' +
+      'This dataset is not subject to GDPR protections.',
+  }, 
   {
     faq: 
       'What if I will not be able to publish my paper in 36 months?',
@@ -40,6 +42,16 @@ export default [
       'period. To apply please contact support. We encourage you to publish ' +
       'a preprint of your work to reduce the uncertainty of the publishing ' +
       'pipeline.',
+  },
+  {
+    faq:
+      'Are there consent form templates we can use in our study?', 
+    faq_answer:
+      'Yes! We recommend using the Open Brain Consent - ' + 
+      '[Ultimate consent form](https://open-brain-consent.readthedocs.io/en/stable/ultimate.html).\n' +
+      '* ' +
+      'For GDPR protected studies, they have a ' +
+      '[Ultimate consent form GDPR edition](https://open-brain-consent.readthedocs.io/en/stable/gdpr/ultimate_gdpr.html).',
   },
   {
     faq:
