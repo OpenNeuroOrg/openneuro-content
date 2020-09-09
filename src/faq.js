@@ -89,4 +89,44 @@ export default [
       'The first is to upload via the web interface. ' +
       'The second is to upload via our [command-line utility tool](cli.openneuro.org)',
   },
+  {
+    faq:
+      'Why can I not use CC-BY (or other CC license)?',
+    faq_answer:
+      'When OpenNeuro first began accepting data, ' +
+      'we hosted datasets that were dedicated to the public domain (CC0 or PDDL) ' +
+      'or released under the CC-BY license. ' +
+      'The idea of accepting CC-BY licenses was to reflect ' +
+      'the academic norm of citing sources, ' +
+      'but it fails to achieve that goal. ' +
+      'In [CC BY and data: Not always a good fit](https://osc.universityofcalifornia.edu/2016/09/cc-by-and-data-not-always-a-good-fit/), ' +
+      'it is argued:\n' +
+      '>  **CC licenses are not sufficient for ensuring proper attribution ' +
+      'in many  cases because their restrictions ' +
+      '— including attribution — do not apply to facts.**\n' +
+      '> ...\n' +
+      '> **CC licenses\' attribution requirements aren\'t necessary ' +
+      'because scholars have very good reasons to provide attribution ' +
+      'that has nothing to do with copyright** [...] ' +
+      'Data that comes from nowhere has little credibility. ' +
+      'If someone wants to use data as persuasive evidence, ' +
+      'they need to refer readers and reviewers back to its source: ' +
+      'who it came from and how it was produced.\n' +
+      '\n' +
+      'CC-BY places an ambiguous legal hurdle between researchers ' +
+      'and data they are considering using, ' +
+      'even if only intended to enforce standard academic practice. ' +
+      'To reduce uncertainty for data consumers, ' +
+      'all newly published datasets are released under CC0, ' +
+      'as are new versions of previously released datasets. ' +
+      ' ' +
+      'We do nonetheless want to encourage proper attribution ' +
+      'of datasets hosted on OpenNeuro. ' +
+      'Each version of a dataset is assigned a unique DOI, ' +
+      'enabling researchers to cite the version of a dataset they analyzed. ' +
+      'Additionally, all OpenNeuro datasets may include a ' +
+      '["HowToAcknowledge" field](https://bids-specification.readthedocs.io/en/stable/03-modality-agnostic-files.html#dataset_descriptionjson), ' +
+      'in which dataset providers may provide specific instructions for users ' +
+      'for what they consider an appropriate citation.',
+  },
 ]
