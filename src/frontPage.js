@@ -17,7 +17,7 @@ export default {
     holder: 'Stanford Center for Reproducible Neuroscience',
   },
   pageDescription:
-    'A free and open platform for sharing MRI, MEG, EEG, iEEG, and ECoG data',
+    'A free and open platform for sharing MRI, MEG, EEG, iEEG, ECoG, and ASL data',
   titlePanel: {
     logos: [
       {
